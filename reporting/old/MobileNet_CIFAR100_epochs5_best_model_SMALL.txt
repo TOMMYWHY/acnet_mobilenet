@@ -1,0 +1,8 @@
+Epoch: 1  Best acc: tensor(12.9900) Test acc: tensor(12.9900)
+Training time: 6652.786712169647 Hour: 1 Minute: 50 Second: 52
+Epoch: 2  Best acc: tensor(17.5400) Test acc: tensor(17.5400)
+Training time: 10580.317571878433 Hour: 2 Minute: 56 Second: 20
+Epoch: 3  Best acc: tensor(26.3100) Test acc: tensor(26.3100)
+Training time: 19656.69297194481 Hour: 5 Minute: 27 Second: 36
+Epoch: 4  Best acc: tensor(30.2500) Test acc: tensor(30.2500)
+Training time: 37695.0622549057 Hour: 10 Minute: 28 Second: 15
