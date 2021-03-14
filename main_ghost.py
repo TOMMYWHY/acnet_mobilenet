@@ -218,15 +218,15 @@ def main():
 
     # from acnet_ghostnet_primary import ghostnet
     # model = ghostnet(num_classes=num_classes, dropout=args.dropout).to(device)
-    # model_name = "acnet_ghost_primary_all" + str(args.dataset_mode) + "_epochs" + str(args.epochs)
+    # model_name = "acnet_ghost_primary_all_minB128" + str(args.dataset_mode) + "_epochs" + str(args.epochs)
 
     # from acnet_ghostnet_cheap import ghostnet
     # model = ghostnet(num_classes=num_classes, dropout=args.dropout).to(device)
-    # model_name = "acnet_ghost_cheap_all" + str(args.dataset_mode) + "_epochs" + str(args.epochs)
+    # model_name = "acnet_ghost_cheap_all_minB128" + str(args.dataset_mode) + "_epochs" + str(args.epochs)
 
     # from acnet_ghostnet_all import ghostnet
     # model = ghostnet(num_classes=num_classes, dropout=args.dropout).to(device)
-    # model_name = "acnet_ghost_cheap_prim_all" + str(args.dataset_mode) + "_epochs" + str(args.epochs)
+    # model_name = "acnet_ghost_cheap_prim_all_minB128" + str(args.dataset_mode) + "_epochs" + str(args.epochs)
 
     if torch.cuda.device_count() >= 1:
         print("num GPUs: ", torch.cuda.device_count())
