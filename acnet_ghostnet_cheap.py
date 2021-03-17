@@ -11,7 +11,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 import math
 
-import Grconv_all as G
+# import Grconv_all as G
+import Grconv_self_global as G
 
 __all__ = ['ghost_net']
 

@@ -58,7 +58,7 @@ class Fc(nn.Module):
 
 # in_channel => x.shape[1] out_channel =>out_channel[2]
 class Grconv(nn.Module):
-    def __init__(self, in_channel, out_channel, kernel_size,stride,padding,groups=1):
+    def __init__(self, in_channel, out_channel, kernel_size,stride,padding=1,groups=1):
         super(Grconv, self).__init__()
         # self.input = input
         self.in_channel = in_channel

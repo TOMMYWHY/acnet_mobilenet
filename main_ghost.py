@@ -223,6 +223,7 @@ def main():
     # from acnet_ghostnet_cheap import ghostnet
     # model = ghostnet(num_classes=num_classes, dropout=args.dropout).to(device)
     # model_name = "acnet_ghost_cheap_all_minB128" + str(args.dataset_mode) + "_epochs" + str(args.epochs)
+    # model_name = "acnet_ghost_cheap_self_global_minB128" + str(args.dataset_mode) + "_epochs" + str(args.epochs)
 
     # from acnet_ghostnet_all import ghostnet
     # model = ghostnet(num_classes=num_classes, dropout=args.dropout).to(device)
