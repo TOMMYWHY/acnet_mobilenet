@@ -214,7 +214,7 @@ def main():
 
     from ghostnet import ghostnet
     model = ghostnet(num_classes=num_classes, dropout=args.dropout).to(device)
-    model_name = "ghostnet_org" + str(args.dataset_mode) + "_epochs" + str(args.epochs)
+    model_name = "ghostnet_org_minB" +str(args.batch_size)+"_" + str(args.dataset_mode) + "_epochs" + str(args.epochs)
 
     # from acnet_ghostnet_primary import ghostnet
     # model = ghostnet(num_classes=num_classes, dropout=args.dropout).to(device)
