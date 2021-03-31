@@ -131,7 +131,8 @@ class GhostBottleneck(nn.Module):
 
         # Point-wise linear projection
         self.ghost2 = GhostModule(mid_chs, out_chs, relu=False)
-        
+
+
         # shortcut
         if (in_chs == out_chs and self.stride == 1):
             self.shortcut = nn.Sequential()
